@@ -1,0 +1,1 @@
+# python automation for getting books via weechat
