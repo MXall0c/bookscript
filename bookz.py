@@ -3,7 +3,18 @@ import weechat
 weechat.register("bookz", "krzivn", ".01", "bonk", "de-hassle finding books", "bubye", "")
 
 """
+# NOT stand alone, meant to be consumed by weechat.
+https://weechat.org/
 /script load Downloads/books/bookscript/bookz.py
+
+idea:
+- remove the manual bullshit
+- enter searchterm
+- script issues search command
+- accepts the zip results
+- handles results
+- paints menu I can spacebar select downloads
+- handles starting the downloads in a civilized manner
 """
 
 def bubye():
